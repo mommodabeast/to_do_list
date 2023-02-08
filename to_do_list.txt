@@ -1,3 +1,30 @@
-Hello!
+Group number: 11
 
-We are going to make a TODO List in typescript uisng React. 
+Group members: Olof Bexelius, Muhammad Saad & Mazin Ali
+
+Supervisor name: Jonas Teglund
+
+Project title: TaskMaster
+
+Link to project repository: https://github.com/mommodabeast/to_do_list.git
+
+Description Briefly explain what the goal of the project is:
+We want to crate a TODO list application that will allow users to create, manage and prioritize their TODO tasks. The tasks will be displayed in a list format, and users will be able to add, edit, and delete tasks as needed. The application will also provide the ability to convert the TODO list into a schedule view, displaying the tasks in a calendar format. 
+
+Milestones List the major milestones or steps towards project completion with estimated duration.  Mark which of these (towards the end) are potentially optional, in case the project takes longer than expected.
+The time estimates are based on best case scenarios, and we are not familiar with React so it could potentially take even longer.  
+Getting started: 1 day (understanding and working with React).
+Making an outline for what data structures we want to use and how we want out list to look: 1 day. 
+Creating a task list component, that displays the list of tasks in React: 2 days. 
+Implementing task management functions: 4 days
+Adding prioritization (based on due date, importance etc.): 2-3 days.
+Some time for testing and debugging in between and after the project. 
+Optional:
+Converting the TODO list int a schedule that you can carry along on your phone as well: 3 days (seems like the hardest part to implement)
+If we have even more time: try to make the application more aesthetically pleasing. 
+
+Communication How do you plan to communicate within the group? Specify for example the means or tools of communication (Discord, Slack, email, etc.) and the expected frequency.
+We are going to communicate via Snapchat and Discord. We will talk to each other a couple of times during the week but during the working phase of the project we will try to update each other every day. 
+
+Libraries Which libraries do you (tentatively) plan to use?
+React – A JavaScript library for building user interfaces. 
