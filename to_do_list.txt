@@ -24,7 +24,7 @@ Implementing task management functions: 4 days
 Adding prioritization (based on due date, importance etc.): 2-3 days.
 Some time for testing and debugging in between and after the project. 
 Optional:
-Converting the TODO list int a schedule that you can carry along on your phone as well: 3 days (seems like the hardest part to implement)
+Converting the TODO list into a schedule that you can carry along on your phone as well: 3 days (seems like the hardest part to implement)
 If we have even more time: try to make the application more aesthetically pleasing. 
 
 Communication How do you plan to communicate within the group? Specify for example the means or tools of 
