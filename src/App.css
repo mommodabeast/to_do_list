@@ -1,0 +1,319 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    background-image: url(./img/image.png);
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2b0202;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  
+  
+  .heading2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f80808;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  .heading3 {
+    font-size: 2px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .TaskForm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label,
+  input {
+    margin: 10px 0;
+  }
+  
+  .main-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    gap: 50px;
+  }
+  
+  
+  .form-style-5 {
+    max-width: 700px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .form-style-5 fieldset {
+    border: none;
+  }
+  .form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  .form-style-5 label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-style-5 select {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color: #000508da;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  .form-style-5 input[type="text"] {
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #bbe580;
+  }
+  .form-style-5 input[type="submit"],
+  .form-style-5 input[type="button"] {
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-radius: 25px;
+    border: 2px solid #73ad21;
+    margin-bottom: 10px;
+  }
+  .form-style-5 input[type="submit"]:hover,
+  .form-style-5 input[type="button"]:hover {
+    background: #109177;
+  }
+  
+  .navbar input[type="checkbox"],
+  .navbar .hamburger-lines {
+    display: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .navbar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: relative;
+    width: 100%;
+    background: transparent;
+    color: #000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+  }
+  
+  .menu-items {
+    order: 2;
+    display: flex;
+  }
+  .logo {
+    order: 1;
+    font-size: 2.3rem;
+  }
+  
+  .menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+    
+  }
+  
+  .navbar a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+    color: #000;
+    font-style: italic;
+  
+    font-weight: 100;
+  }
+  
+  .navbar a:hover {
+    color: #117964;
+    background: transparent;
+  }
+  
+  button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+  
+  select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: white;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 10'%3E%3Cpath d='M0 0l15 10 15-10z' fill='%23000000'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7em top 50%, 0 0;
+    background-size: 0.65em auto, 100%;
+  }
+  
+  select:focus {
+    outline: none;
+  }
+  
+  option {
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(250, 249, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+  
+  
+  
+  option[value="blue"] {
+    background-color: rgb(9, 132, 247);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #000;
+  }
+  
+  option[value="red"] {
+    background-color: rgba(247, 14, 14, 0.637);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #000;
+  }
+  
+  option[value="yellow"] {
+    background-color: rgb(253, 253, 147);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #000;
+  }
+  
+  .Task{
+  
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 350px;
+    height: fit-content;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  .flex-row{
+  
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    margin-bottom: 10px;
+     gap: 10px;
+  }
+  .flex-row h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .flex-row a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }

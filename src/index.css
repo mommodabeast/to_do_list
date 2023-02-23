@@ -1,0 +1,22 @@
+/* Setting the margin of the body element to 0 */
+body {
+    margin: 0;
+
+    /* Defining a fallback font stack in case the preferred font isn't available */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+
+      /* Ensuring fonts look smooth on webkit-based browsers (like Safari) */
+    -webkit-font-smoothing: antialiased;
+
+     /* Ensuring fonts look smooth on Firefox on macOS */
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Defining the font family to use for code elements */
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
