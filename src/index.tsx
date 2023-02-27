@@ -12,5 +12,5 @@ const root = ReactDOM.createRoot(
 // Rendering the App component into the newly created root using the render() method
 root.render(<App />);
 
-// reporting the web vitals
+// Reporting the web vitals
 reportWebVitals();
