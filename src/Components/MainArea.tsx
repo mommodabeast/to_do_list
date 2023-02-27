@@ -1,8 +1,10 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import AddTask from "./AddTask";
 import { ITask } from "./Interfaces";
 import TodoTask from "./Task";
 import { Stack, HashTable, KeyValuePair } from "../Utils.ts/DataStructures";
+
 
 export default function MainArea() {
   const [ListTask, setListTask] = useState<ITask[]>([]);
@@ -101,18 +103,25 @@ export default function MainArea() {
     console.log("useEffect is called");
   }, []);
 
-  // TODO : Conditional rendering based on one
+  // TODO : Conditional rendering based on tasks being completed or not
 
   return (
     <>
       <div className="main-area">
+        {/* AddTask is a child component, which receives a prop called "onAddTask" */}
         <AddTask onAddTask={handleAddTask}></AddTask>
+
+        {/* This div displays the list of tasks */}
         <div className="task-list">
+          {/* If there are tasks in the ListTask array, display the heading "Task List" */}
           {ListTask.length !== 0 ? (
             <h1>Task List</h1>
           ) : (
+            // If there are no tasks in the array, display the heading "No Task Added"
             <h1 className="heading2">No Task Added</h1>
           )}
+
+          {/* Map through the ListTask array, and display a TodoTask component for each task */}
           {ListTask.map((task, key: number) => (
             <TodoTask
               task={task}

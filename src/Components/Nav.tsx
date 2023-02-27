@@ -83,14 +83,21 @@ export default function Navbar() {
 
   return (
     <>
+    {/* Main navbar container */}
       <nav className="navbar">
+        {/*  Container that holds the contents of the navbar */}
         <div className="navbar-container container">
+          {/* This input is used for the mobile menu */}
           <input type="checkbox" name="" id="" />
+
+          {/* This div contains the hamburger menu icon */}
           <div className="hamburger-lines">
             <span className="line line1"></span>
             <span className="line line2"></span>
             <span className="line line3"></span>
           </div>
+
+          {/* This is the main menu, which contains the download links */}
           <ul className="menu-items">
             <li>
               <a onClick={ConvertWeekly}>Download Weekly</a>
