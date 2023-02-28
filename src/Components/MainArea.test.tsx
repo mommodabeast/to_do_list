@@ -1,6 +1,10 @@
+import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import MainArea from "./MainArea";
 import "@testing-library/jest-dom";
+
+
+
 describe("MainArea", () => {
   beforeEach(() => {
     localStorage.clear();

@@ -4,7 +4,9 @@
   "description": "We are going to make a TODO list using react. You should eb able to add, delete or edit your tasks. You can also priorotize the tasks so that they are ordered in a specific way.  You can also convert your TODO list into a scedule that you can carry with you on you phone.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-script build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,28 @@
   "bugs": {
     "url": "https://github.com/mommodabeast/to_do_list/issues"
   },
-  "homepage": "https://github.com/mommodabeast/to_do_list#readme"
+  "homepage": "https://github.com/mommodabeast/to_do_list#readme",
+  "dependencies": {
+    "@testing-library/react": "^14.0.0",
+    "file-saver": "^2.0.5",
+    "papaparse": "^5.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5"
+  }
 }
