@@ -54,7 +54,7 @@ describe("MainArea", () => {
       target: { value: updatedTaskName },
     });
 
-    fireEvent.click(screen.getByText(/save/i));
+    fireEvent.click(screen.getByText(/Submit/i));
     const updatedTaskElement = await screen.findByText(updatedTaskName);
     expect(updatedTaskElement).toBeInTheDocument();
   });

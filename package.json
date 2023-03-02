@@ -1,12 +1,14 @@
 {
   "name": "to_do_list",
   "version": "1.0.0",
-  "description": "We are going to make a TODO list using react. You should eb able to add, delete or edit your tasks. You can also priorotize the tasks so that they are ordered in a specific way.  You can also convert your TODO list into a scedule that you can carry with you on you phone.",
+  "private": true,
+  "description": "We are going to make a TODO list using react. You should be able to add, delete or edit your tasks. You can also priorotize the tasks so that they are ordered in a specific way.  You can also convert your TODO list into a scedule that you can carry with you on you phone.",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,14 @@
     "papaparse": "^5.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
   },
   "browserslist": {
     "production": [
